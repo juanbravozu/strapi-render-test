@@ -9,8 +9,8 @@ const resend = new Resend('re_ivwaXX23_49C3MMsU23gJMMqDJe7bk5eDre_ivwaXX23_49C3M
 module.exports = {
   sendEmail: async (ctx) => {
     const { data, error } = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['juanda.bravo98@gmail.com'],
+      from: 'juanda.bravo98@gmail.com',
+      to: ['tvespine@gmail.com'],
       subject: 'Hello World',
       html: '<strong>It works!</strong>',
     });
